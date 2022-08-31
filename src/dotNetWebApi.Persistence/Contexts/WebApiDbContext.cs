@@ -1,5 +1,4 @@
-﻿using System.Reflection;
-using dotNetWebApi.Application.Contracts;
+﻿using dotNetWebApi.Application.Contracts;
 using dotNetWebApi.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 

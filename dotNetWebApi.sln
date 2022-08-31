@@ -2,11 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetWebApi", "src\dotNetWebApi\dotNetWebApi.csproj", "{FEC319A0-9F87-47F2-812F-827A45D886F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetWebApi.Domain", "src\dotNetWebApi.Domain\dotNetWebApi.Domain.csproj", "{002AAD03-409B-45ED-AA5F-54126C307CD5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetWebApi.Persistence", "src\dotNetWebApi.Persistence\dotNetWebApi.Persistence.csproj", "{997A5045-85CF-4904-BA0D-2F8D451D01AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetWebApi.Application", "src\dotNetWebApi.Application\dotNetWebApi.Application.csproj", "{618F25AB-E24B-43FF-9F1D-DC71E03ED9C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetWebApi.Domain", "src\dotNetWebApi.Domain\dotNetWebApi.Domain.csproj", "{C12BB7FF-9E1F-4022-89D4-1C7B291C4F6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,10 +18,6 @@ Global
 		{FEC319A0-9F87-47F2-812F-827A45D886F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEC319A0-9F87-47F2-812F-827A45D886F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEC319A0-9F87-47F2-812F-827A45D886F2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{002AAD03-409B-45ED-AA5F-54126C307CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{002AAD03-409B-45ED-AA5F-54126C307CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{002AAD03-409B-45ED-AA5F-54126C307CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{002AAD03-409B-45ED-AA5F-54126C307CD5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{997A5045-85CF-4904-BA0D-2F8D451D01AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{997A5045-85CF-4904-BA0D-2F8D451D01AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{997A5045-85CF-4904-BA0D-2F8D451D01AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -30,5 +26,9 @@ Global
 		{618F25AB-E24B-43FF-9F1D-DC71E03ED9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{618F25AB-E24B-43FF-9F1D-DC71E03ED9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{618F25AB-E24B-43FF-9F1D-DC71E03ED9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12BB7FF-9E1F-4022-89D4-1C7B291C4F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12BB7FF-9E1F-4022-89D4-1C7B291C4F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12BB7FF-9E1F-4022-89D4-1C7B291C4F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12BB7FF-9E1F-4022-89D4-1C7B291C4F6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,4 +1,7 @@
-﻿using dotNetWebApi.Installers.Interfaces;
+﻿using System.Reflection;
+using dotNetWebApi.Application.Contracts;
+using MediatR;
+using dotNetWebApi.Installers.Interfaces;
 
 namespace dotNetWebApi.Installers;
 
@@ -11,5 +14,7 @@ public class BaseInstaller : IInstaller
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen(x => x.SwaggerDoc("v1", new() { Title = "My API", Version = "v1" }));
+        
+        services.AddMediatR(typeof(IWebApiDbContext).GetTypeInfo().Assembly);
     }
 }

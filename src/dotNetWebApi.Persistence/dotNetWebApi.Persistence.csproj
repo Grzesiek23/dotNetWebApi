@@ -16,6 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\dotNetWebApi.Domain\dotNetWebApi.Domain.csproj" />
       <ProjectReference Include="..\dotNetWebApi.Application\dotNetWebApi.Application.csproj" />
       <ProjectReference Include="..\dotNetWebApi.Domain\dotNetWebApi.Domain.csproj" />
     </ItemGroup>
